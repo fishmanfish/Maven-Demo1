@@ -18,7 +18,7 @@
         <mybatis.version>3.2.8</mybatis.version>
         <mybatis.spring.version>1.2.2</mybatis.spring.version>
         <mybatis.paginator.version>1.2.15</mybatis.paginator.version>
-        <mysql.version>5.1.46</mysql.version>
+        <mysql.version>8.0.21</mysql.version>
         <slf4j.version>1.6.4</slf4j.version>
         <jackson.version>2.4.2</jackson.version>
         <druid.version>1.0.9</druid.version>
@@ -68,11 +68,6 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>${commons-io.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-net</groupId>
@@ -199,13 +194,13 @@
                 <version>${fileupload.version}</version>
             </dependency>
 
-            <!--&lt;!&ndash; Redis客户端 &ndash;&gt;
+            <!--Redis客户端 -->
             <dependency>
               <groupId>redis.clients</groupId>
               <artifactId>jedis</artifactId>
               <version>${jedis.version}</version>
             </dependency>
-            &lt;!&ndash; solr客户端 &ndash;&gt;
+           <!-- &lt;!&ndash; solr客户端 &ndash;&gt;
             <dependency>
               <groupId>org.apache.solr</groupId>
               <artifactId>solr-solrj</artifactId>

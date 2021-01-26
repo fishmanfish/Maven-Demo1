@@ -18,4 +18,6 @@ public class Emp implements Serializable {
   private String empName;
   private int deptID;
   private double money;
+  private int gender;
+  private String empImg;
 }
