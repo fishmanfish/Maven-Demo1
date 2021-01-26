@@ -5,3 +5,8 @@
 /Maven_JuHe_Service/target
 /Maven_JuHe_Web/target
 
+/Maven_JuHe_Dao/src/test
+/Maven_JuHe_Model/src/test
+/Maven_JuHe_Service/src/test
+/Maven_JuHe_Web/src/test
+
