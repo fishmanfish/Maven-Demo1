@@ -1,12 +1,15 @@
 .idea
 
-/Maven_JuHe_Dao/target
-/Maven_JuHe_Model/target
-/Maven_JuHe_Service/target
-/Maven_JuHe_Web/target
+/e3-common/target
+/e3-common/e3-common.iml
+/e3-common/src/test
 
-/Maven_JuHe_Dao/src/test
-/Maven_JuHe_Model/src/test
-/Maven_JuHe_Service/src/test
-/Maven_JuHe_Web/src/test
+/e3-manager/target
+/e3-manager/e3-common.iml
+/e3-manager/src/test
+
+/e3-parent/target
+/e3-parent/e3-common.iml
+/e3-parent/src/test
+
 
